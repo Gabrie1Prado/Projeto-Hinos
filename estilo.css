@@ -1,0 +1,76 @@
+h1 {
+    background-color: beige;
+    /* Serve para dar cor ao fundo do texto */
+    max-width: max-content;
+    /* Utilizado para selecionar o máximo utilizado */
+    color: blue;
+    /* Serve para dar cor ao texto */
+    padding: 10px;
+    /* Padding serve para dar espaçamento entre o texto */
+    margin: auto;
+    /* Serve para centralizar o texto na site juntamente com o fundo */
+    border: 5px solid brown;
+    /* Tipos de bordas: Solid - Dotted - Dashed - Double 
+PX da borda é a grossura*/
+    margin-bottom: 50px;
+    /* serve para dar espaçamento na parte de cima*/
+    margin-top: 40px;
+    /* serve para dar espaçamento na parte superior */
+    Display: block;
+    /* Tipo de elemento, você escolhe onde colocar */
+    Margin: auto;
+    /* Serve para centralizar a imagem */
+}
+
+body {
+    background-image: url(../Imagens/São-Roque.jpg);
+    /* serve para colocar imagem no fundo do texto e o cover para ampliar a imagem de acordo com o site */
+    background-color: brow;
+    /* Serve para colocar uma cor no fundo do site */
+    background-size: cover;
+    /* Serve para alinhar a imagem de acordo com a página */
+    background-size: contain;
+    /* Multiplica a imagem em vários pedacinho, mas usando o repeat ele fica uma só pequena */
+    background-repeat: no-repeat;
+    /* Serve para não repetir a imagem do size contain */
+    background: linear-gradient(blue, red)
+    /* Height: Vh significa que vai ocupar o body a tela toda */
+    /* Quando utilizamos 45deg antes das cores, ele fica em angulo que escolhemos */
+    /* to right/top/left/bootom a primeira cor sai da esquerda e vai pra direita */
+}
+
+.paragrafodiferenciado {
+    color: chartreuse
+}
+
+
+/* utilizado (ponto .) quando usamos a tag class no html */
+
+p {
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    background-color: azure;
+    background-repeat: no-repeat;
+}
+
+#Imagem {
+    /* (Utilizamos # quando é o ID) */
+    height: 20px;
+    width: 30px;
+    border-radius: 10px;
+    display: block;
+    Margin: auto;
+    /*adicionar comentário usamos o crtl e ;*/
+}
+
+
+/* Responsividade */
+
+@media screen and (min-width: 320px) {
+    .newslatter input,
+    .newslatter form button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

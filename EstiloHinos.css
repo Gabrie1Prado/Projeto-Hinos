@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornsilk;
+    background-size: cover;
+}
+
+h1 {
+    border: double 5px;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+}
